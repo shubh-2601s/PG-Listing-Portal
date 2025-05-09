@@ -1,0 +1,313 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #5a4c8e;
+}
+
+/* Login Container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login Title */
+.login-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Login Form */
+.login-form {
+  background-color: white;
+  padding: 30px;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+body.dark .login-form {
+  background-color: #2c2c2c;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+/* Login Inputs */
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+body.dark .login-form input {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+/* Login Button */
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #5a4c8e;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Success Message */
+.success-message {
+  color: green;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* App Container */
+.App {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+body.dark .App {
+  background-color: #2c2c2c;
+}
+
+/* Header */
+.header {
+  background-color: #6a5acd;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Buttons */
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Logout & Profile Buttons */
+.logout-button,
+.profile-button {
+  background-color: #ff4d4d;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-button {
+  background-color: #4CAF50;
+}
+
+.logout-button:hover {
+  background-color: #e44d40;
+}
+
+.profile-button:hover {
+  background-color: #3e8e41;
+}
+.profile-form {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+
+body.dark .profile-form {
+  background-color: #2c2c2c;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+/* Profile Image Styling */
+.profile-image-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #6a5acd;
+  margin-bottom: 15px;
+}
+
+/* Input Styling */
+.profile-form input,
+.profile-form select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+body.dark .profile-form input,
+body.dark .profile-form select {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+/* Save Button */
+.profile-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.profile-form button:hover {
+  background-color: #5a4c8e;
+}
+
+/* Profile Picture */
+.profile-thumbnail {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+body.dark .profile-thumbnail {
+  border-color: #444;
+}
+
+/* Filter Section */
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* Listings Grid */
+.pg-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+/* Property Card */
+.pg-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+body.dark .pg-card {
+  background-color: #3a3a3a;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.pg-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Rent Price */
+.rent {
+  color: #6a5acd;
+  font-weight: bold;
+}
+
+/* Profile Picture in Edit Profile */
+.profile-image-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #6a5acd;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-buttons {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .pg-listings {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+}
