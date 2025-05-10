@@ -3,6 +3,7 @@ This is a PG (Paying Guest) Listing Portal built using React.js. It allows users
 
 Features
 User Authentication: Allows users to log in with a username and password. If the login is successful, the user session is stored locally.
+(username : user , password: password for direct login)
 
 Profile Creation: Users can create and update their profiles. This step only needs to be completed once, as the profile data is saved in localStorage.
 
