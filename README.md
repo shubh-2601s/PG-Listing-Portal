@@ -12,6 +12,7 @@ This is a PG (Paying Guest) Listing Portal built using React.js. It allows users
 - [Demonstration of Working](demonstration-of-working)
 - [Future Improvements](#future-improvements)
 - [License](#license)
+- [Acknowledgement](#acknowledgement)
 - [Contact](#contact)
 
 # Overview
@@ -190,8 +191,18 @@ Here are **suggestions for future improvements** to enhance the functionality, u
 # License
 This project is open-source and available under the MIT License.
 
+---
 # Acknowledgements
 * React for providing a powerful framework for building the user interface.
 * React Documentation for valuable resources and examples.
+---
+
+# Contact
+Author: Shubham
+
+Email: 10221shubham.s@gmail.com
+
+GitHub: github.com/shubh-2601s
+
 
 
