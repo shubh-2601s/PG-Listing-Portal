@@ -26,8 +26,8 @@ Folder Structure
 The project follows a simple folder structure for components and styling:
 
 graphql
-Copy
-Edit
+
+
 src/
 │
 ├── components/
@@ -43,24 +43,18 @@ Installation and Setup
 Start by cloning the repository to your local machine using the following command:
 
 bash
-Copy
-Edit
-git clone https://github.com/YOUR-USERNAME/pg-listing-portal.git
+git clone https://github.com/YOUR-USERNAME/pg-listin-portal.git
 cd pg-listing-portal
 2. Install Dependencies
 Ensure you have Node.js and npm installed on your system. Once they are installed, run the following command to install the required dependencies:
 
-bash
-Copy
-Edit
-npm install
+bash npm install
+
 3. Run the Application
 Start the development server with the following command:
 
-bash
-Copy
-Edit
-npm start
+bash npm start
+
 This will open the app in your default browser at http://localhost:3000.
 
 Functionality Walkthrough
