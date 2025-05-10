@@ -1,4 +1,4 @@
-# PG Listing Portal
+![image](https://github.com/user-attachments/assets/c48cbf5f-9267-4805-8679-d536d6bdd25b)# PG Listing Portal
 This is a PG (Paying Guest) Listing Portal built using React.js. It allows users to register, create a profile, and browse available PG listings with filtering options. The project incorporates user authentication, dark/light mode toggle, and profile management features.
 
 # Features
@@ -77,6 +77,34 @@ This will open the app in your default browser at http://localhost:3000.
 
 # Customization
 Feel free to customize the app by adding more features or changing the existing ones. The structure of the app is modular, making it easy to update components like the PG listing filter, add more user authentication mechanisms, or integrate external APIs.
+
+# Demonstration of Working
+**Login Page**
+
+This is the login page for the portal which lets the user login if correct credentials has been entered. A new user can use the signup button to make a new account and later login.
+![image](https://github.com/user-attachments/assets/ffebd4ff-429e-41d1-bd6d-dcf291efec22)
+
+**Profile Page**
+
+A profile page is given for user to be able to maintain their account data accordingly.
+![image](https://github.com/user-attachments/assets/8faca3c5-ae8e-4d3b-ad2f-08768295d55a)
+
+**View page [PG Listing Portal]**
+
+This is how the PGListing Portal looks with the PGs listed and a profile button at top right corner along with the logout option and also the searching filters available for flexibility of the user.
+![image](https://github.com/user-attachments/assets/4b09bd5b-c326-41cd-a408-0e3c044656ed)
+
+This is the View page of the PG Listing Portal in dark mode enabling the user to view in his favourite theme: light or dark!
+![image](https://github.com/user-attachments/assets/d67dc5a6-f0c6-47a6-a273-ce66f41e6089)
+
+**Filter searching options**
+1. Search by Location ![image](https://github.com/user-attachments/assets/bad2d78d-f431-41ab-8a58-4db3c86330eb)
+
+2. Search by Rent ![image](https://github.com/user-attachments/assets/86933cb9-3cd6-4249-8481-dd2467d8f483)
+
+3. Search by Availability ![image](https://github.com/user-attachments/assets/c36bd1f7-de93-43bc-b923-39923470243a)
+
+   Thus, this is how the PG Listing Portal has been built with a login page, a profile page as well as the main page where PGs are listed and enabled with filtered options.  
 
 # License
 This project is open-source and available under the MIT License.
