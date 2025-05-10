@@ -83,6 +83,5 @@ This project is open-source and available under the MIT License.
 
 # Acknowledgements
 * React for providing a powerful framework for building the user interface.
-* 
 * React Documentation for valuable resources and examples.
 
