@@ -107,6 +107,7 @@ This is the View page of the PG Listing Portal in dark mode enabling the user to
 2. Search by Rent ![image](https://github.com/user-attachments/assets/4afca53f-5840-4d12-98b9-d5c5aa7905a8)
 
 3. Search by Availability ![image](https://github.com/user-attachments/assets/94b93382-4ee6-4c54-9fc2-c1e00e064e59)
+
 Thus, this is how the PG Listing Portal has been built with a login page, a profile page as well as the main page where PGs are listed and enabled with filtered options.  
 
 # License
