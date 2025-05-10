@@ -2,11 +2,10 @@
 This is a PG (Paying Guest) Listing Portal built using React.js. It allows users to register, create a profile, and browse available PG listings with filtering options. The project incorporates user authentication, dark/light mode toggle, and profile management features.
 
 # Features
-User Authentication: Allows users to log in with a username and password. If the login is successful, the user session is stored locally.
+**User Authentication**: Allows users to log in with a username and password. If the login is successful, the user session is stored locally.
 (username : user , password: password for direct login)
 
-# Profile Creation: 
-Users can create and update their profiles. This step only needs to be completed once, as the profile data is saved in localStorage.
+**Profile Creation**: Users can create and update their profiles. This step only needs to be completed once, as the profile data is saved in localStorage.
 
 # PG Listings: 
 Displays a list of PG accommodations that users can filter by rent, location, and availability.
