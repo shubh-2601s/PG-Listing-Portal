@@ -1,7 +1,7 @@
 # PG Listing Portal
 This is a PG (Paying Guest) Listing Portal built using React.js. It allows users to register, create a profile, and browse available PG listings with filtering options. The project incorporates user authentication, dark/light mode toggle, and profile management features.
 
-## Table of Contents
+# Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
