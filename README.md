@@ -82,29 +82,32 @@ Feel free to customize the app by adding more features or changing the existing 
 **Login Page**
 
 This is the login page for the portal which lets the user login if correct credentials has been entered. A new user can use the signup button to make a new account and later login.
-![image](https://github.com/user-attachments/assets/ffebd4ff-429e-41d1-bd6d-dcf291efec22)
+![image](https://github.com/user-attachments/assets/e41b763c-40b9-45b3-a272-6a6a3b2955f5)
+
 
 **Profile Page**
 
 A profile page is given for user to be able to maintain their account data accordingly.
-![image](https://github.com/user-attachments/assets/8faca3c5-ae8e-4d3b-ad2f-08768295d55a)
+![image](https://github.com/user-attachments/assets/aa9712f3-c645-43a8-a890-b111872a4f82)
+
 
 **View page [PG Listing Portal]**
 
 This is how the PGListing Portal looks with the PGs listed and a profile button at top right corner along with the logout option and also the searching filters available for flexibility of the user.
-![image](https://github.com/user-attachments/assets/4b09bd5b-c326-41cd-a408-0e3c044656ed)
+![image](https://github.com/user-attachments/assets/0f75679d-e1aa-46f0-af53-eb80b5e5a4a3)
+
 
 This is the View page of the PG Listing Portal in dark mode enabling the user to view in his favourite theme: light or dark!
-![image](https://github.com/user-attachments/assets/d67dc5a6-f0c6-47a6-a273-ce66f41e6089)
+![image](https://github.com/user-attachments/assets/69ae3003-4c2a-41df-b5af-d7f21ff46bef)
+
 
 **Filter searching options**
-1. Search by Location ![image](https://github.com/user-attachments/assets/bad2d78d-f431-41ab-8a58-4db3c86330eb)
+1. Search by Location ![image](https://github.com/user-attachments/assets/7d3bae4a-e00f-4cc9-a17c-9c254e0327ba)
 
-2. Search by Rent ![image](https://github.com/user-attachments/assets/86933cb9-3cd6-4249-8481-dd2467d8f483)
+2. Search by Rent ![image](https://github.com/user-attachments/assets/4afca53f-5840-4d12-98b9-d5c5aa7905a8)
 
-3. Search by Availability ![image](https://github.com/user-attachments/assets/c36bd1f7-de93-43bc-b923-39923470243a)
-
-   Thus, this is how the PG Listing Portal has been built with a login page, a profile page as well as the main page where PGs are listed and enabled with filtered options.  
+3. Search by Availability ![image](https://github.com/user-attachments/assets/94b93382-4ee6-4c54-9fc2-c1e00e064e59)
+Thus, this is how the PG Listing Portal has been built with a login page, a profile page as well as the main page where PGs are listed and enabled with filtered options.  
 
 # License
 This project is open-source and available under the MIT License.
